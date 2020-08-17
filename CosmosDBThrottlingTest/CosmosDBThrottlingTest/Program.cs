@@ -22,7 +22,6 @@ namespace CosmosDBThrottlingTest
                 }).ToList();
 
             Console.ReadKey();
-
         }
     }
 }
