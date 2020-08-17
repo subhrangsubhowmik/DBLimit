@@ -14,6 +14,7 @@ namespace CosmosDBThrottlingTest
         {
             Console.WriteLine("Hello World!");
             var course = new CourseRepository("MOL");
+
             var AllCourses = course.GetCourses(
                 new CourseQueryParams()
                 {
